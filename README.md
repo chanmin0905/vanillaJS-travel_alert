@@ -3,16 +3,19 @@
 [공공데이터 포털의 국가∙지역별 여행경보](https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15076237) 데이터를 활용
 
 <br />
+<br />
 
 # 구현된 모습
 
 - 와이어프레임
-    
-    ![와이어프레임이미지](./wireframe.png)
-    
-<br />
-<br />
 
+  ![와이어프레임이미지](./wireframe.png)
+
+  - Figma URL
+    https://www.figma.com/file/gFJO6Sv7341aAHFsbeIBno/Untitled?node-id=0%3A1
+
+<br />
+<br />
 
 # Skill & Tools
 
@@ -27,8 +30,8 @@
 # 기능
 
 1. 검색창에 국가 이름을 검색했을 때 해당 국가 여행경보 출력
-    - 국가 이름은 한글로 검색
-    - 여행 경보 : 1~4단계, null은 특별여행경보
+   - 국가 이름은 한글로 검색
+   - 여행 경보 : 1~4단계, null은 특별여행경보
 
 <br />
 <br />
