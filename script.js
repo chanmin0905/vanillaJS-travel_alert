@@ -1,4 +1,7 @@
+import key from "./personalKey";
+
 // Elements
+
 const inputEl = document.querySelector("input");
 const buttonEl = document.querySelector("button");
 const nationFlagEl = document.querySelector(".national-flag > img");
@@ -10,11 +13,14 @@ const levelEl = document.querySelector(".alarm-lvl");
 let inputValue = "";
 
 let baseUrl = "http://apis.data.go.kr/1262000/TravelAlarmService2/getTravelAlarmList2";
-let params = {
-  servicelKey: "YJfCdKTd2Xc9jh96ViOqYaxQwZZ6JeNMS1Hbh4CoUFB935wwI7CHLU%2BBXQ%2BIBGUtu3EkQXGsBKHldH%2BejL8NAg%3D%3D",
-  numOfRows: 1,
-  pageNo: 1,
-};
+// let params = {
+//   servicelKey: key.servicelKey,
+//   // gitignore
+
+//   numOfRows: 1,
+//   pageNo: 1,
+// };
+let params = key;
 
 const country = {};
 
